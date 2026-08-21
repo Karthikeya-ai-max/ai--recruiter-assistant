@@ -1,5 +1,4 @@
 resume = input("Enter you resume: ")
-resume = resume.lower()
 Required_skill= []
 Required_technology = []
 Required_language = []
