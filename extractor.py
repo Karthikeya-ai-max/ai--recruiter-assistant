@@ -16,9 +16,9 @@ for language in languages:
   if language in resume:
     Required_language.append(language)
 
-print(f"Skills: {required_skills}")
-print(f"technologies: {required_technologies}")
-print(f"languages: {required_languages}")
+print(f"Skills: {Required_skills}")
+print(f"technologies: {Required_technologies}")
+print(f"languages: {Required_languages}")
 
 
   
