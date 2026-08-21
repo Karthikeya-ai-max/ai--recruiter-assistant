@@ -20,9 +20,9 @@ print(f"Skills: {Required_skill}")
 print(f"technologies: {Required_technology}")
 print(f"languages: {Required_language}")
 
-if "AI/ML" or "Machine learning" in Required_skill:
+if "AI/ML" in Required_skill or "Machine learning" in Required_skill:
   role = "machine learning engineer"
-elif "Computer vision" or "CNN" in Required_skill:
+elif "Computer vision" in Required_skill or "CNN" in Required_skill:
   role = "Compuer vision engineer"
 else:
   role = "software developer"
