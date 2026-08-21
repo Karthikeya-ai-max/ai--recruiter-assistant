@@ -27,7 +27,7 @@ elif "computer vision" or "cnn" in Required_skill:
   role = "compuer vision engineer"
 else:
   role = "software developer"
-print(f"Suggested role: {role})
+print(f"Suggested role: {role}")
 
 
   
