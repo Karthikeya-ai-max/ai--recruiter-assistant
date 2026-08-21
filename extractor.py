@@ -4,9 +4,9 @@ Required_skill= []
 Required_technology = []
 Required_language = []
 role = []
-skills = ["machine learning", "ai/ml", "deep learning", "computer vision"]
-technologies = ["pytorch", "cnn", "tensorflow"]
-languages = ["C++", "python", "java", "javascript"]
+skills = ["Machine learning", "AI/Ml", "Deep learning", "Computer vision"]
+technologies = ["Pytorch", "CNN", "Tensorflow"]
+languages = ["C++", "Python", "Java", "Javascript"]
 for skill in skills:
   if skill in resume:
     Required_skill.append(skill)
@@ -17,14 +17,14 @@ for language in languages:
   if language in resume:
     Required_language.append(language)
 
-print(f"Skills: {Required_skills}")
-print(f"technologies: {Required_technologies}")
-print(f"languages: {Required_languages}")
+print(f"Skills: {Required_skill}")
+print(f"technologies: {Required_technology}")
+print(f"languages: {Required_language}")
 
-if "ai/ml" or "machine learning" in Required_skill:
+if "AI/ML" or "Machine learning" in Required_skill:
   role = "machine learning engineer"
-elif "computer vision" or "cnn" in Required_skill:
-  role = "compuer vision engineer"
+elif "Computer vision" or "CNN" in Required_skill:
+  role = "Compuer vision engineer"
 else:
   role = "software developer"
 print(f"Suggested role: {role}")
