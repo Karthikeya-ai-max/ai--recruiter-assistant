@@ -4,7 +4,7 @@ Required_skill= []
 Required_technology = []
 Required_language = []
 role = []
-skills = ["Machine learning", "AI/Ml", "Deep learning", "Computer vision"]
+skills = ["Machine learning", "AI/ML", "Deep learning", "Computer vision"]
 technologies = ["Pytorch", "CNN", "Tensorflow"]
 languages = ["C++", "Python", "Java", "Javascript"]
 for skill in skills:
