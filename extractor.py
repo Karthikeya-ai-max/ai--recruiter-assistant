@@ -11,10 +11,10 @@ for skill in skills:
     Required_skill.append(skill)
 for technology in technologies:
   if technology in resume:
-    required_technology.append(technology)
+    Required_technology.append(technology)
 for language in languages:
   if language in resume:
-    required_language.append(language)
+    Required_language.append(language)
 
 print(f"Skills: {required_skills}")
 print(f"technologies: {required_technologies}")
